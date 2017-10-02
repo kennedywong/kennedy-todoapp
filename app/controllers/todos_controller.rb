@@ -41,8 +41,4 @@ class TodosController < ApplicationController
   	params.require(:todo).permit(:title, :duedate, :remark)
   end
 
-  def set_expiry_date
-    if()
-  end
-
 end
